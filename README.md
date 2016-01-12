@@ -1,4 +1,4 @@
-The PureNexus Project
+The PureNexus Project - Layers
 =====================
 
 Getting Started
