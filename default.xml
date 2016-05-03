@@ -8,7 +8,7 @@
            review="android-review.googlesource.com" />
   <remote name="pure"
            fetch="https://github.com/PureNexusProject/" /> 
-  <default revision="refs/tags/android-6.0.1_r24"
+  <default revision="refs/tags/android-6.0.1_r25"
            remote="aosp"
            sync-c="true"
            sync-f="true"
