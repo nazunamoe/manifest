@@ -36,6 +36,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="pure" revision="mm" />
   <project path="external/fuse" name="android_external_fuse" remote="pure" revision="mm" />
   <project path="external/google" name="android_external_google" remote="pure" revision="mm" />
+  <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm" />
@@ -174,7 +175,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
