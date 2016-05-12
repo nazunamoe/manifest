@@ -14,6 +14,9 @@
            sync-j="4" />
 
   <!-- Pure Repo's -->
+  <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm2" />
   <!-- Proprietary Vendors -->
@@ -25,9 +28,6 @@
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="mm" />
 
   <!-- AOSP Repo's -->
-  <project path="build" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
