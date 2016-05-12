@@ -17,6 +17,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="manifest" name="manifest" remote="pure" revision="mm2" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm2" />
   <!-- Proprietary Vendors -->
