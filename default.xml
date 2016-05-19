@@ -52,12 +52,12 @@
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm2" />
 
   <!-- Proprietary Vendors -->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="pure" revision="mm" />
-  <project path="vendor/google" name="proprietary_vendor_google" remote="pure" revision="mm" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="pure" revision="mm" />
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="mm" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="mm" />
-  <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="mm" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="pure" revision="mm2" />
+  <project path="vendor/google" name="proprietary_vendor_google" remote="pure" revision="mm2" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="pure" revision="mm2" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="mm2" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="mm2" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="mm2" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
