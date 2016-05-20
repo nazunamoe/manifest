@@ -31,6 +31,7 @@
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="mm2" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="pure" revision="mm2" />
+  <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm2" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm2" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
@@ -144,7 +145,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
