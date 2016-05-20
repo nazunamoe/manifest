@@ -36,7 +36,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="pure" revision="mm" />
   <project path="external/fuse" name="android_external_fuse" remote="pure" revision="mm" />
   <project path="external/google" name="android_external_google" remote="pure" revision="mm" />
-  <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
+  <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm2" />
