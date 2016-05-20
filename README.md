@@ -31,3 +31,8 @@ Enjoy, Stick around for a while AOSP Building is Fun!!!
 [@BeansTown106](https://twitter.com/beanstown106) on Twitter
 
 [PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
+
+## For compiling in Ubuntu 16.04 (Java 8 by default)
+
+    You need to add 'export EXPERIMENTAL_USE_JAVA8=true' to your .bashrc or in the command prompt
+    before compiling
