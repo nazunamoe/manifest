@@ -32,11 +32,11 @@
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="mm2" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="pure" revision="mm2" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pure" revision="mm" />
-  <project path="external/exfat" name="android_external_exfat" remote="pure" revision="mm" />
-  <project path="external/fuse" name="android_external_fuse" remote="pure" revision="mm" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pure" revision="mm2" />
+  <project path="external/exfat" name="android_external_exfat" remote="pure" revision="mm2" />
+  <project path="external/fuse" name="android_external_fuse" remote="pure" revision="mm2" />
   <project path="external/google" name="android_external_google" remote="pure" revision="mm" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm2" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm2" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="mm" />
@@ -72,7 +72,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pure" revision="mm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm2" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm2" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm-cmte" />
 
   <!-- Kernel Source -->
