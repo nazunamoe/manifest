@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @nazunamoe
- Watch 4
-  Star 7
-  Fork 19 PureNexusProject/manifest
- Code  Issues 0  Pull requests 1  Wiki  Pulse  Graphs
-Branch: mm Find file Copy path
-manifest/default.xml
-5d7fd96  5 hours ago
-@beanstown106 beanstown106 track more mm2 so we dont break things yet lol
-3 contributors @beanstown106 @dhacker29 @npjohnson
-RawBlameHistory    498 lines (491 sloc)  47.7 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
