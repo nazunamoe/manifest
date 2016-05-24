@@ -1,3 +1,20 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @nazunamoe
+ Watch 4
+  Star 7
+  Fork 19 PureNexusProject/manifest
+ Code  Issues 0  Pull requests 1  Wiki  Pulse  Graphs
+Branch: mm Find file Copy path
+manifest/default.xml
+5d7fd96  5 hours ago
+@beanstown106 beanstown106 track more mm2 so we dont break things yet lol
+3 contributors @beanstown106 @dhacker29 @npjohnson
+RawBlameHistory    498 lines (491 sloc)  47.7 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -35,13 +52,14 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pure" revision="mm2" />
   <project path="external/exfat" name="android_external_exfat" remote="pure" revision="mm2" />
   <project path="external/fuse" name="android_external_fuse" remote="pure" revision="mm2" />
+  <project path="external/google" name="android_external_google" remote="pure" revision="mm" />
   <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm2" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm2" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm2" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="mm" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm-cmte" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pure" revision="mm-cmte" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pure" revision="mm" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="pure" revision="mm" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pure" revision="mm" />
   <project path="hardware/marvell/wlan" name="android_hardware_marvell_wlan" remote="pure" revision="mm2" />
@@ -52,28 +70,25 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pure" revision="mm" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="pure" revision="mm" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pure" revision="mm" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pure" revision="mm-cmte" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pure" revision="mm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pure" revision="mm" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="mm" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="pure" revision="mm" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm-cmte" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="pure" revision="mm" />
   <project path="packages/apps/PureNexusSettings" name="android_packages_apps_PureNexusSettings" remote="pure" revision="mm" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pure" revision="mm-cmte" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pure" revision="mm" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="generic_fs" remote="pure" revision="mm" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="pure" revision="mm-cmte" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="pure" revision="mm" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pure" revision="mm" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="pure" revision="mm" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pure" revision="mm" />
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="pure" revision="mm-cmte" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pure" revision="mm" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pure" revision="mm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm2" />
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm-cmte" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
 
   <!-- Kernel Source -->
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="pure" revision="mm2" />
@@ -414,6 +429,7 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
@@ -496,3 +512,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
