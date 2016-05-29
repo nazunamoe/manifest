@@ -8,6 +8,8 @@
            review="android-review.googlesource.com" />
   <remote name="pure"
            fetch="https://github.com/PureNexusProject/" /> 
+  <remote name="nazuna"
+           fetch="https://github.com/nazunamoe/" /> 
   <default revision="refs/tags/android-6.0.1_r25"
            remote="aosp"
            sync-c="true"
@@ -18,7 +20,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="pure" revision="mm-cmte" />
+  <project path="manifest" name="manifest" remote="nazuna" revision="mm-cmte" />
   <project path="art" name="android_art" groups="pdk" remote="pure" revision="mm2" />
   <project path="device/asus/deb" name="android_device_asus_deb" groups="device,flo" remote="pure" revision="mm2" />
   <project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="pure" revision="mm2" />
@@ -68,7 +70,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pure" revision="mm" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="pure" revision="mm-cmte" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pure" revision="mm" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pure" revision="mm2" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pure" revision="mm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm2" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm2" />
