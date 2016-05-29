@@ -16,10 +16,10 @@
            sync-j="4" />
 
   <!-- Pure Repo's -->
-  <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm-cmte" >
+  <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="pure" revision="mm2-cmte" />
+  <project path="manifest" name="manifest" remote="nazuna" revision="mm2-cmte" />
   <project path="art" name="android_art" groups="pdk" remote="pure" revision="mm2" />
   <project path="device/asus/deb" name="android_device_asus_deb" groups="device,flo" remote="pure" revision="mm2" />
   <project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="pure" revision="mm2" />
